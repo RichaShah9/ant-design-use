@@ -5,8 +5,8 @@ export default class Service {
         headers.append('Content-Type', 'application/json');
         headers.append('X-Requested-With', 'XMLHttpRequest');
         this.state = {
-            baseURL: '/axelor-erp/',
-            restURL: '/axelor-erp/ws/rest/',
+            baseURL: '/traversier/',
+            restURL: '/traversier/ws/rest/',
         }
         this.headers = headers;
     }
